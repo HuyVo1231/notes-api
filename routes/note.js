@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const noteController = require('../app/controller/noteController')
+const noteController = require('../app/controller/NoteController')
 
 const authenticateToken = require('../utilities').authenticateToken
 
